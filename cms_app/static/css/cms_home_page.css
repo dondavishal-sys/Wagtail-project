@@ -1,0 +1,29 @@
+.cms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cms-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.cms-content > * {
+    margin: 20px 0;
+}
+
+/* Optional: center-align text inside paragraphs or headings */
+p, h2, h3, h4 {
+    text-align: center;
+}
+
+/* Optional: images centered */
+.cms-content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}

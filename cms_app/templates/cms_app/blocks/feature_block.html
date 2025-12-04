@@ -1,0 +1,7 @@
+<div class="feature">
+    {% if block.value.icon %}
+        <img src="{{ block.value.icon.url }}" alt="{{ block.value.title }}">
+    {% endif %}
+    <h3>{{ block.value.title }}</h3>
+    <p>{{ block.value.text }}</p>
+</div>
