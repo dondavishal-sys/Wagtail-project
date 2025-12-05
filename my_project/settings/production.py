@@ -8,7 +8,11 @@ DEBUG = False
 SECRET_KEY = os.environ.get('SECRET_KEY', 'change-me-in-production')
 
 # SECURITY WARNING: define the correct hosts in production!
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
+ALLOWED_HOSTS = [
+    "wagtail-project-99kq.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 # Database - use DATABASE_URL environment variable
 DATABASES = {
